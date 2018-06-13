@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-download-manager"
+    version="0.0.1">
+    <name>Cordova Plugin Template</name>
+    <description></description>
+    <license>MIT</license>
+    <keywords></keywords>
+
+    <js-module src="www/plugin.js" name="plugin">
+        <clobbers target="DownloadManager" />
+    </js-module>
+    
+    <!-- android -->
+    <platform name="android">
+
+      <source-file src="src/android/org/sunbird/DownloadManager.java" target-dir="src/org/sunbird/" />
+
+
+    </platform>
+
+</plugin>

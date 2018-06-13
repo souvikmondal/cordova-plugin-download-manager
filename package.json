@@ -1,0 +1,12 @@
+{
+  "name": "cordova-plugin-download-mager",
+  "version": "0.0.1",
+  "cordova": {
+    "id": "cordova-plugin-download-mager",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "description": "A cordova plugin for downloading large files"
+}
