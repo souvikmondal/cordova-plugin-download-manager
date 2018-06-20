@@ -1,4 +1,4 @@
-package downloadmanager;
+package com.tarento.downloadmanager;
 
 import android.content.Context;
 import android.net.Uri;
