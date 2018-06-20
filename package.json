@@ -1,8 +1,8 @@
 {
-  "name": "cordova-plugin-download-mager",
+  "name": "cordova-plugin-download-manager",
   "version": "0.0.1",
   "cordova": {
-    "id": "cordova-plugin-download-mager",
+    "id": "cordova-plugin-download-manager",
     "platforms": [
       "android",
       "ios"
