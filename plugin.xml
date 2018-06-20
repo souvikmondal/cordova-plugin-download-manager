@@ -15,7 +15,7 @@
     <!-- android -->
     <platform name="android">
 
-      <source-file src="src/com/tarento/downloadmanager/DownloadManager.java" target-dir="src/com/tarento/downloadmanager/" />
+      <source-file src="src/android/DownloadManager.java" target-dir="src/com/tarento/downloadmanager/" />
 
 
     </platform>
