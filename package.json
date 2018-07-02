@@ -4,8 +4,7 @@
   "cordova": {
     "id": "cordova-plugin-download-manager",
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ]
   },
   "description": "A cordova plugin for downloading large files"

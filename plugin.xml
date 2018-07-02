@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-download-manager"
-    version="0.0.1">
+<plugin id="cordova-plugin-download-manager" version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Cordova Plugin Template</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
-
-    <js-module src="www/plugin.js" name="plugin">
+ 
+    <js-module src="www/plugin.js" name="DownloadManager">
         <clobbers target="DownloadManager" />
     </js-module>
-    
     <!-- android -->
     <platform name="android">
-
-      <source-file src="src/android/DownloadManager.java" target-dir="src/com/tarento/downloadmanager/" />
-
-
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="DownloadManager">
+            <!-- TODO: check name for the package -->
+                <param name="android-package" value="com.tarento.downloadmanager.DownloadManager" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/DownloadManager.java" target-dir="src/com/tarento/downloadmanager" />
     </platform>
-
 </plugin>
